@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Blazed';
+    src: url(Blazed.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #262626;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #595959, #404040, #262626);
+    position: relative;
+    padding: 15px;
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header h1{
+    font-family: 'Blazed';
+    color: rgba(255, 255, 255, 0.888);
+    text-align: center;
+    margin-top: 20px;
+}
+
+header p{
+    font-family: 'Blazed';
+    text-align: center;
+    color: rgba(255, 255, 255, 0.668);
+    margin-top: 10px;
+}
+
+#redes{
+    text-align: center;
+}
+
+#redes img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+
+}
+
+#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.652);
+    transform: translate(3px, -3px);
+    transition: transform 1s;
+    box-shadow: 5px 5px 8px white;
+}
+
+video{
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+#id{
+    background-color: white;
+}
